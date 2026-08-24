@@ -1,0 +1,9 @@
+export const PITCH = Object.freeze({ length: 105, width: 68, halfL: 52.5, halfW: 34, goalWidth: 7.32, goalHeight: 2.44, goalDepth: 2.6, penaltyX: 36.0, boxDepth: 16.5, boxHalfW: 20.16, sixDepth: 5.5, sixHalfW: 9.16, centerCircle: 9.15 });
+export const MATCH = Object.freeze({ durationSeconds: 600, gameMinutes: 90, halftimeAt: 300, kickoffDelay: 1.2, restartDelay: 1.1 });
+export const COLORS = Object.freeze({ home: 0x2478ff, homeShorts: 0x102d62, away: 0xff3f54, awayShorts: 0x741521, keeperHome: 0xf4d13d, keeperAway: 0x39dc91, skin: 0xd8a47f, grassA: 0x287a3e, grassB: 0x2f8545, line: 0xf5f7f1 });
+export const FORMATIONS = Object.freeze({ home: [[-49,0],[-34,-20],[-38,-7],[-38,7],[-34,20],[-20,-18],[-23,0],[-20,18],[-5,-19],[-1,0],[-5,19]], away: [[49,0],[34,20],[38,7],[38,-7],[34,-20],[20,18],[23,0],[20,-18],[5,19],[1,0],[5,-19]] });
+export const PLAYER = Object.freeze({ radius:.56, walkSpeed:5.8, sprintSpeed:8.9, accel:19, decel:24, aiSpeed:6.4, keeperSpeed:6.1, tackleRange:1.55, controlRange:1.3, passSpeed:17, throughSpeed:20, lobSpeed:14, maxShotSpeed:31, staminaDrain:16, staminaRegen:10 });
+export const BALL = Object.freeze({ radius:.22, gravity:9.81, bounce:.53, groundDrag:.82, airDrag:.994, spinDrag:.985, maxSpeed:42 });
+export const ROLES = ['GK','LB','LCB','RCB','RB','LM','CM','RM','LW','ST','RW'];
+export const HOME_NAMES = ['Atlas','Vega','Mora','Nilo','Caio','Luan','Breno','Davi','Ivo','Ravi','Noel'];
+export const AWAY_NAMES = ['Orion','Klein','Marek','Sato','Enzo','Gale','Rico','Toma','Yuri','Leon','Zane'];
